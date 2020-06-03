@@ -14,13 +14,13 @@ You'll need to create a new node server. Open a new terminal within the project 
 this project is hosted on AWS Elastic Beanstalk, note that if it's not accessible that means it has been shut down due to cost constraint ;)
 
 ```
-
+http://project-udagram-dev.us-west-2.elasticbeanstalk.com/
 ```
 
 ### Example request
 
-**NOTE** the image_url below is not actually valid, and it will give an error
+**NOTE** the image_url below is not actually valid, and it will give an error. Please replace with your own url
 
 ```
-http://localhost:8082/filteredimage?image_url=https://theurlforyourimage/kitten.jpg
+http://project-udagram-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://theurlforyourimage/kitten.jpg
 ```
